@@ -1,0 +1,121 @@
+/*Estilo para toda la pweb completa*/
+*{
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Estilos para bloques*/
+body {
+    background-image: url('https://images.pexels.com/photos/6331086/pexels-photo-6331086.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    flex-direction: column;
+}
+header {
+    color: whitesmoke;
+    text-align:center;
+    background-color:#562773 ;
+    opacity: 0.8;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+header h2 {
+    background-color: #562773;
+    color: whitesmoke;
+}
+
+h3 {
+    text-align: center;
+    color:beige;
+}
+
+
+nav {
+    text-align: center;
+    color:beige;
+}
+
+img {
+    border-style: outset;
+    border-width: 7px;
+    border-radius: 50%;
+    border-top-color:rgb(232, 201, 238);
+    border-right-color:gray;
+    border-bottom-color: gray;
+    border-left-color: rgb(232, 201, 238);
+}
+
+p {
+    margin: 3% 10%;
+    text-align: center;
+    color:beige;
+}
+
+a {
+    color: lightskyblue;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin-left: 10px;
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+li::before { 
+    content: "\2606"; 
+    padding-right: 8px; 
+    color: beige; 
+    font-size: 20px;
+    height: fit-content;
+    align-content: center;
+}
+
+button {
+    color: violet;
+    font-weight: bolder;
+    border-width: 3px;
+    border-radius: 10%;
+    border-top-color:rgb(232, 201, 238);
+    border-right-color:gray;
+    border-bottom-color: gray;
+    border-left-color: rgb(232, 201, 238);
+}
+/*Estilos por clases*/
+.bloques {
+    display:flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fecha {
+    color: black;
+    font-weight: bold;
+    text-decoration: dashed;
+}
+
+.dato {
+    color:beige;
+}
+
+.tarea {
+    color:orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descripcion_tarea {
+    color:bisque;
+}
+
